@@ -25,7 +25,6 @@
 <body>
 	<!--================ Starts header area =================-->
 	<header class="header_area">
-
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -68,112 +67,104 @@
 		</nav>
 	</header>
 	<!--================ Ends header area =================-->
-	<!--================ Starts banner area =================-->
-	<section class="banner_area d-flex text-center">
-		<div class="container align-self-center">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="banner_content">
-						<h6>Experiencia, compromiso y calidad</h6>
-						<h1>Ingeniería Gerencia y Minería S.A.C.</h1>
-						<p>Somos una empresa peruana que se dedica a prestar servicios de asesoría y consultoría
-							<br>de proyectos mineros, ambientales, civiles, saneamiento, eléctricos, mecánicos e industriales;
-							<br> gerencia de proyectos y supervisión en la construcción de obras civiles.</p>
-						<a href="#" class="btn_hover btn_hover_two">Descargar brochure</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ Ends banner area =================-->
-	<!--================ Starts our services area =================-->
-	<section class="team_area section_gap">
+
+	<!--================Breadcrumb Area =================-->
+	<section class="breadcrumb_area br_image">
 		<div class="container">
-			<div class="section_title text-center">
-				<h2>Nuestros principales servicios</h2>
-				<p>Ofrecemos soluciones personalizadas en base a cada situación y necesidad</p>
+			<div class="page-cover text-center">
+				<h2 class="page-cover-tittle">Contact Us</h2>
+				<ol class="breadcrumb">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li class="active">Contact Us</li>
+				</ol>
 			</div>
-			<div class="row mb_30">
-				<div class="col-lg-6 col-md-6 col-sm-6">
-					<div class="team_item">
-						<div class="team_img">
-							<img src="image/servicio_desarrollo.jpg" alt="Servicio desarrollo sostenible">
+		</div>
+	</section>
+	<!--================Breadcrumb Area =================-->
+
+	<!--================Contact Area =================-->
+	<section class="contact_area section_gap">
+		<div class="container">
+			<div id="mapBox" class="mapBox" data-lat="40.701083" data-lon="-74.1522848" data-zoom="13" data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
+			 data-mlat="40.701083" data-mlon="-74.1522848">
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="contact_info">
+						<div class="info_item">
+							<i class="lnr lnr-home"></i>
+							<h6>California, United States</h6>
+							<p>Santa monica bullevard</p>
 						</div>
-						<div class="content">
-							<h3>Desarrollo sostenible</h3><br>
-							<p class="text-justify">Somos una organización responsable que está comprometida con el
-									desarrollo sostenible, reconocemos que nuestro éxito, y el de nuestros
-									clientes, dependen cada vez más de la incorporación de los principios del
-									desarrollo sostenible en nuestros proyectos y actividades.</p>
+						<div class="info_item">
+							<i class="lnr lnr-phone-handset"></i>
+							<h6>
+								<a href="#">00 (440) 9865 562</a>
+							</h6>
+							<p>Mon to Fri 9am to 6 pm</p>
 						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6">
-					<div class="team_item">
-						<div class="team_img">
-							<img src="image/servicio_mineria.jpg" alt="Servicio Minería">
-						</div>
-						<div class="content">
-							<h3>Minería</h3><br>
-							<p class="text-justify">IGEMIN presta servicios de asesoría y
-									consultoría de proyectos mineros relacionados a estudios básicos,
-									estudios de factibilidad y a nivel de ingeniería de detalle para
-									Infraestructura y equipamiento minero, plantas concentradoras, pads de
-									lixiviación, plantas metalúrgicas, presas de relaves y obras
-									subterráneas; para pequeña, mediana y gran minería.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6">
-					<div class="team_item">
-						<div class="team_img">
-							<img src="image/servicio_supervicion.jpg" alt="Servicio supervición">
-						</div>
-						<div class="content">
-							<h3>Supervisión</h3><br>
-							<p class="text-justify">IGEMIN, tiene vasta experiencia en la
-									servicios de supervisión de obras civiles y electromecánicas utilizando
-									técnicas y procedimientos de construcción (normas estándares), criterios técnicos y planos de los
-									proyectos.</p>
+						<div class="info_item">
+							<i class="lnr lnr-envelope"></i>
+							<h6>
+								<a href="#">support@colorlib.com</a>
+							</h6>
+							<p>Send us your query anytime!</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6">
-					<div class="team_item">
-						<div class="team_img">
-							<img src="image/servicio_construccion.jpg" alt="Servicio construcción">
+				<div class="col-md-9">
+					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+							</div>
 						</div>
-						<div class="content">
-							<h3>Construcción</h3><br>
-							<p class="text-justify">IGEMIN, tiene implementado un
-									Sistema de Gestión de Calidad para la Construcción (CQA-CQC) en obras
-									como: Depósito de Relaves, Depósito de Desmontes, Carreteras, Obras
-									Hidráulicas, Plantas Industriales e infraestructura en general;
-									fundamentado en los conceptos y principios de la Norma GE.030 (Peligro
-									Sísmico) y Calidad de la Construcción con el objetivo de orientar la aplicación
-									de la Gestión de Calidad en todas las etapas de ejecución de proyectos.</p>
+						<div class="col-md-6">
+							<div class="form-group">
+								<textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+							</div>
 						</div>
-					</div>
+						<div class="col-md-12 text-right">
+							<button type="submit" value="submit" class="btn btn_hover btn_hover_two">Send Message</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--================ End our services area=================-->
+	<!--================Contact Area =================-->
+
 	<!--================ Starts footer area  =================-->
 	<footer class="footer-area section_gap">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-10  col-md-10 col-sm-10">
+				<div class="col-lg-4  col-md-4 col-sm-4">
 					<div class="single-footer-widget">
 						<h6 class="footer_title">IGEMIN</h6>
-						<p>Oficina Principal: Cal. Guillermo Faure N° 150 San Borja - Lima - Perú
-							<br> Teléfono: (051) 1 - 3405638 | RPM.: 996458826</p>
+						<p>Oficina Principal
+							<br>Cal. Guillermo Faure N° 150 San Borja - Lima - Perú
+							<br> Teléf.: (051) 1-3405638 | RPM.: 996458826</p>
+					</div>
+				</div>
+				<div class="col-lg-4  col-md-4 col-sm-4">
+					<div class="container">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3901.151009740695!2d-77.00188238518695!3d-12.101812691430643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sGuillermo+Faure+N%C2%B0+150+San+Borja!5e0!3m2!1ses!2spe!4v1529420539502"
+						 frameborder="0" style="border:0"></iframe>
 					</div>
 				</div>
 			</div>
 			<div class="border_line"></div>
 			<div class="row footer-bottom d-flex justify-content-between align-items-center">
 				<p class="col-lg-8 col-sm-8 footer-text m-0">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					Copyright &copy;
 					<script>document.write(new Date().getFullYear());</script> All rights reserved
 				</p>
@@ -196,6 +187,38 @@
 	</footer>
 	<!--================ Ends footer area  =================-->
 
+	<!--================Contact Success and Error message Area =================-->
+	<div id="success" class="modal modal-message fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-close"></i>
+					</button>
+					<h2>Thank you</h2>
+					<p>Your message is successfully sent...</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modals error -->
+
+	<div id="error" class="modal modal-message fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-close"></i>
+					</button>
+					<h2>Sorry !</h2>
+					<p> Something went wrong </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--================End Contact Success and Error message Area =================-->
+
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.2.1.min.js"></script>
@@ -204,11 +227,19 @@
 	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
 	<script src="js/jquery.ajaxchimp.min.js"></script>
 	<script src="js/mail-script.js"></script>
-	<script src="js/mail-script.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
 	<script src="js/stellar.js"></script>
 	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
-	<script src="vendors/flipclock/timer.js"></script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="js/gmaps.min.js"></script>
+	<!-- contact js -->
+	<script src="js/jquery.form.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
 	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="js/contact.js"></script>
 	<script src="js/custom.js"></script>
 </body>
 

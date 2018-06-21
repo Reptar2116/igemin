@@ -1,22 +1,4 @@
 /*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Royal Hotel
-@Author: Rocky
-@Developed By: Rocky
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
 Table of Content:
 01/ Variables
 02/ predefin
@@ -106,7 +88,7 @@ button:focus {
 }
 
 .section_gap {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 
 .section_title {
@@ -3487,7 +3469,7 @@ h1, h2, h3, h4, h5, h6 {
 /*============== footer-area css ===============*/
 .footer-area {
   background: #04091e;
-  padding: 142px 0px;
+  padding: 30px 0px 10px 0px;
 }
 
 .single-footer-widget p {
@@ -3587,7 +3569,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-bottom {
-  padding-top: 46px;
+  padding-top: 10px;
 }
 
 .footer-bottom .footer-text a {
