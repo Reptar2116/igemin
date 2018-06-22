@@ -34,6 +34,7 @@ Table of Content:
   list-style: none;
   margin: 0px;
   padding: 0px;
+  text-align: left
 }
 
 a {
@@ -88,7 +89,7 @@ button:focus {
 }
 
 .section_gap {
-  padding: 50px 0px;
+  padding: 70px 0px;
 }
 
 .section_title {
@@ -115,10 +116,6 @@ button:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.section_gap {
-  padding: 120px 0;
 }
 
 .row_reverse {
@@ -559,7 +556,7 @@ h3 {
 .donation_form {
   text-align: center;
   background: #fff;
-  padding: 40px 25px 50px;
+  padding: 15px 20px;
 }
 
 .donation_form h3 {
@@ -1039,6 +1036,7 @@ h3 {
   position: relative;
   text-align: center;
   cursor: pointer;
+  margin: 10px 0;
 }
 
 .categories_post img {
@@ -1493,8 +1491,8 @@ h3 {
 
 /*============ Start Blog Single Styles  =============*/
 .single-post-area {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .single-post-area .social-links {
@@ -1520,7 +1518,7 @@ h3 {
 }
 
 .single-post-area .blog_details {
-  padding-top: 26px;
+  padding-top: 5px;
 }
 
 .single-post-area .blog_details p {
@@ -3566,10 +3564,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 1px;
   background: #333333;
   margin-top: 30px;
-}
-
-.footer-bottom {
-  padding-top: 10px;
 }
 
 .footer-bottom .footer-text a {
