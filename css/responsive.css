@@ -1,3 +1,29 @@
+@media (min-width:1024px){
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media (min-width:768px){
+
+}
+
+@media (min-width:425px){
+   
+}
+
+@media (min-width:375px){
+    
+}
+
+@media (min-width:320px){
+    
+}
+
+
+
+
+
 @media (max-width:1199px){
     .header_area .navbar .nav .nav-item .nav-link{
         margin-right: 30px;
@@ -20,7 +46,6 @@
 		max-width: 100%;
 	}
 }
-
 @media (max-width:991px){
     .navbar-toggler {
         border: none;
@@ -130,8 +155,8 @@
 }
 @media (max-width:767px){
     .banner_content h1{
-        font-size: 40px;
-        line-height: 60px;
+        font-size: 30px;
+        line-height: 50px;
         padding-top: 0px;
     }
     .banner_content p br{
@@ -207,8 +232,8 @@
 }
 @media (max-width:576px){
     .banner_content h1 {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 20px;
+        line-height: 30px;
         margin-bottom: 0px;
     }
     .donation_form .form-group{
@@ -238,7 +263,6 @@
 		overflow-y: scroll;
 	}
 }
-
 @media (max-width:480px){
     .header_top .col-7{
         display: none !important;
