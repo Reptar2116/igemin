@@ -40,13 +40,13 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 					<ul class="nav navbar-nav menu_nav ml-auto">
-						<li class="nav-item active">
+						<li class="nav-item">
 							<a class="nav-link" href="index.html">Inicio</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="nosotros.html">Quienes somos</a>
 						</li>
-						<li class="nav-item submenu dropdown">
+						<li class="nav-item submenu dropdown active">
 							<a href="servicios.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nuestros servicios</a>
 							<ul class="dropdown-menu">
 								<li class="nav-item">
@@ -105,37 +105,49 @@
 	<section class="event_details_area section_gap">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7">
-					<img class="img-fluid" src="image/serv_hidraulica.jpg" alt="">
+				<div class="col-md-6">
+					<img class="img-fluid" src="image/servicio_hidraulica.jpg" alt="">
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-6">
 					<a href="#">
 						<h2 class="event_title">Hidráulica e Irrigaciones</h2>
 					</a>
-					<p>Desarrollamos los siguientes servicios:</p>
-					<ul class="list_style sermons_category event_category">
-						<li>
-							<i class="fas fa-angle-double-right"></i>Estudios de recursos hídricos.</li>
-						<li>
-							<i class="fas fa-angle-double-right"></i>Sistemas de abastecimiento de agua.</li>
-						<li>
-							<i class="fas fa-angle-double-right"></i>Diseño de presas y embalses de agua.</li>
-						<li>
-							<i class="fas fa-angle-double-right"></i>Estudios de inundaciones.</li>
-						<li>
-							<i class="fas fa-angle-double-right"></i>Análisis y diseño de tuberías.</li>
-						<li>
-							<i class="fas fa-angle-double-right"></i>Análisis y diseño de canales.</li>
-					</ul>
-				</div>
-				<div class="col-md-12 event_details">
-					<p>IGEMIN ha desarrollado una permanente e intensa actividad en la planiﬁcación de recursos hídricos y la elaboración de
+					<p class="text-justify">IGEMIN ha desarrollado una permanente e intensa actividad en la planiﬁcación de recursos hídricos y la elaboración de
 						estudios y diseños de ingeniería así como en la supervisión de la construcción de obras hidráulicas, abarcando los
 						diferentes campos de la infraestructura hidráulica.</p>
-					<p>Nuestras actividades se concentran en centrales hidroeléctricas, irrigaciones, utilización de cuencas, presas, embalses
+					<p class="text-justify">Nuestras actividades se concentran en centrales hidroeléctricas, irrigaciones, utilización de cuencas, presas, embalses
 						y obras relacionadas con los aﬁanzamientos hídricos; obras de conducción hidráulica: Bocatomas, canales, túneles, rápidas,
 						sifones. Asimismo estaciones de bombeo, evaluación de recursos hídricos, hidráulica ﬂuvial y marítima, hidrología,
 						obras subterráneas y túneles.</p>
+
+					<div class="accordion" id="accordiondetail">
+						<h5 id="headingOne">
+							<button class="genric-btn primary-border" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+							 aria-controls="collapseOne">
+								Ver detalle de servicios
+							</button>
+						</h5>
+					</div>
+					<div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordiondetail">
+						<div class="card-body">
+							<ul class="list_style sermons_category event_category">
+								<li>
+									<i class="fas fa-angle-double-right"></i>Estudios de recursos hídricos.</li>
+								<li>
+									<i class="fas fa-angle-double-right"></i>Sistemas de abastecimiento de agua.</li>
+								<li>
+									<i class="fas fa-angle-double-right"></i>Diseño de presas y embalses de agua.</li>
+								<li>
+									<i class="fas fa-angle-double-right"></i>Estudios de inundaciones.</li>
+								<li>
+									<i class="fas fa-angle-double-right"></i>Análisis y diseño de tuberías.</li>
+								<li>
+									<i class="fas fa-angle-double-right"></i>Análisis y diseño de canales.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 event_details">
 				</div>
 			</div>
 		</div>

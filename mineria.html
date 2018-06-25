@@ -40,13 +40,13 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 					<ul class="nav navbar-nav menu_nav ml-auto">
-						<li class="nav-item active">
+						<li class="nav-item">
 							<a class="nav-link" href="index.html">Inicio</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="nosotros.html">Quienes somos</a>
 						</li>
-						<li class="nav-item submenu dropdown">
+						<li class="nav-item submenu dropdown active">
 							<a href="servicios.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nuestros servicios</a>
 							<ul class="dropdown-menu">
 								<li class="nav-item">
@@ -105,39 +105,49 @@
 	<section class="event_details_area section_gap">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7">
-					<img class="img-fluid" src="image/serv_mineria.jpg" alt="">
+				<div class="col-md-6">
+					<img class="img-fluid" src="image/servicio_mineria.jpg" alt="">
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-6">
 					<a href="#">
 						<h2 class="event_title">Minería</h2>
 					</a>
-					<p>Desarrollamos los siguientes servicios:</p>
-					<ul class="list_style sermons_category event_category">
-						<li>
-							<i class="fas fa-angle-double-right"></i>Evaluación de alternativas de diseño</li>
-						<li>
-							<i class="fas fa-angle-double-right"></i>Investigaciones geotécnicas</li>
-						<li>
-							<i class="fas fa-angle-double-right"></i>Estudios de geología, peligro sísmico, hidrología e hidrogeología</li>
-						<li>
-							<i class="fas fa-angle-double-right"></i>Diseño y estudios a nivel conceptual y de factibilidad</li>
-						<li>
-							<i class="fas fa-angle-double-right"></i>Diseño y estudios a nivel de ingeniería de detalle</li>
-						<li>
-							<i class="fas fa-angle-double-right"></i>Supervisión de la construcción</li>
-						<li>
-							<i class="fas fa-angle-double-right"></i>Aseguramiento de la calidad de la construcción</li>
-						<li>
-							<i class="fas fa-angle-double-right"></i>Asesoría para el cumplimiento de permisos y regulaciones</li>
-					</ul>
-				</div>
-				<div class="col-md-12 event_details">
-					<p>IGEMIN presta servicios de asesoría y consultoría de proyectos mineros relacionados a estudios básicos, estudios de
+					<p class="text-justify">IGEMIN presta servicios de asesoría y consultoría de proyectos mineros relacionados a estudios básicos, estudios de
 						factibilidad y a nivel de ingeniería de detalle para Infraestructura y equipamiento minero, plantas concentradoras,
 						pads de lixiviación, plantas metalúrgicas, presas de relaves y obras subterráneas; para pequeña, mediana y gran minería.</p>
+					<div class="accordion" id="accordiondetail">
+						<h5 id="headingOne">
+							<button class="genric-btn primary-border" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+							 aria-controls="collapseOne">
+								Ver detalle de servicios
+							</button>
+						</h5>
+					</div>
+					<div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordiondetail">
+						<div class="card-body">
+							<ul class="list_style sermons_category event_category">
+								<li>
+									<i class="fas fa-angle-double-right"></i>Evaluación de alternativas de diseño</li>
+								<li>
+									<i class="fas fa-angle-double-right"></i>Investigaciones geotécnicas</li>
+								<li>
+									<i class="fas fa-angle-double-right"></i>Estudios de geología, peligro sísmico, hidrología e hidrogeología</li>
+								<li>
+									<i class="fas fa-angle-double-right"></i>Diseño y estudios a nivel conceptual y de factibilidad</li>
+								<li>
+									<i class="fas fa-angle-double-right"></i>Diseño y estudios a nivel de ingeniería de detalle</li>
+								<li>
+									<i class="fas fa-angle-double-right"></i>Supervisión de la construcción</li>
+								<li>
+									<i class="fas fa-angle-double-right"></i>Aseguramiento de la calidad de la construcción</li>
+								<li>
+									<i class="fas fa-angle-double-right"></i>Asesoría para el cumplimiento de permisos y regulaciones</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</section>
 	<!--================ End our services area=================-->

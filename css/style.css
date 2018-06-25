@@ -696,7 +696,7 @@ h3 {
 }
 
 .blog_banner .bg-parallax {
-  background: url(../image/banner-1.jpg) no-repeat scroll 100% 10%/cover;
+  background: url(../image/banner_01.JPG) no-repeat scroll 100% 10%/cover;
 }
 
 .blog_banner .banner_content {
@@ -762,17 +762,17 @@ h3 {
 /*=========== breadcrumb_area css =============*/
 .breadcrumb_area {
   position: relative;
-  padding: 110px 0px 90px;
+  padding: 100px 0px 80px;
   background: #04091e;
   z-index: 1;
   overflow: hidden;
 }
 
 .br_image {
-  background: -webkit-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");
-  background: -o-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");
-  background: -webkit-gradient(linear, left top, right top, from(rgba(4, 9, 30, 0.8)), to(rgba(4, 9, 30, 0.8))), url("../image/banner.jpg");
-  background: linear-gradient(to right, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");
+  background: -webkit-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/breadcrumb.jpg");
+  background: -o-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/breadcrumb.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(4, 9, 30, 0.8)), to(rgba(4, 9, 30, 0.8))), url("../image/breadcrumb.jpg");
+  background: linear-gradient(to right, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/breadcrumb.jpg");
 }
 
 .page-cover-tittle {
