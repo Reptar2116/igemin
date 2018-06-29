@@ -72,11 +72,16 @@
 								</li>
 							</ul>
 						</li>
-						<li class="nav-item">
-							<a href="proyectos.html" class="nav-link">Proyectos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="noticias.html">Noticias</a>
+						<li class="nav-item submenu dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos</a>
+							<ul class="dropdown-menu">
+								<li class="nav-item">
+									<a class="nav-link" href="proyectos_mineros_01.html">Minería</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="proyectos_supervision.html">Supervisión de obras</a>
+								</li>
+							</ul>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="oportunidades.html">Oportunidad laboral</a>
@@ -108,48 +113,54 @@
 			 data-mlat="-12.101402" data-mlon="-76.999615">
 			</div>
 			<div class="row">
-					<div class="col-md-5">
-							<div class="contact_info">
-									<div class="info_item">
-											<i class="lnr lnr-home"></i>
-											<h6>Oficina Principal</h6>
-											<p>Cal. Guillermo Faure N° 150 San Borja - Lima - Perú</p>
-									</div>
-									<div class="info_item">
-											<i class="lnr lnr-phone-handset"></i>
-											<h6><a href="#">Teléfonos</a></h6>
-											<p>(051) 1 - 3405638 | RPM.: 996458826 </p>
-									</div>
-									<div class="info_item">
-											<i class="lnr lnr-envelope"></i>
-											<h6><a href="#">E-mail</a></h6>
-											<p>rtrejo@igemin.com</p>
-									</div>
+				<div class="col-md-5">
+					<div class="contact_info">
+						<div class="info_item">
+							<i class="lnr lnr-home"></i>
+							<h6>Oficina Principal</h6>
+							<p>Cal. Guillermo Faure N° 150 San Borja - Lima - Perú</p>
+						</div>
+						<div class="info_item">
+							<i class="lnr lnr-phone-handset"></i>
+							<h6>
+								<a href="#">Teléfonos</a>
+							</h6>
+							<p>(051) 1 - 3405638 | RPM.: 996458826 </p>
+						</div>
+						<div class="info_item">
+							<i class="lnr lnr-envelope"></i>
+							<h6>
+								<a href="#">E-mail</a>
+							</h6>
+							<p>rtrejo@igemin.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<p>Si está buscando más información sobre la empresa, tiene preguntas sin respuesta de nuestro sitio web o por cualquier
+						otra consulta, nuestro equipo está aquí para ayudarle.</p>
+					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+						<div class="col-md-5">
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Ingresar su nombre">
 							</div>
-					</div>
-					<div class="col-md-7">
-							<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-									<div class="col-md-6">
-											<div class="form-group">
-													<input type="text" class="form-control" id="name" name="name" placeholder="Ingresar su nombre">
-											</div>
-											<div class="form-group">
-													<input type="email" class="form-control" id="email" name="email" placeholder="Ingresar su e-mail">
-											</div>
-											<div class="form-group">
-													<input type="number" class="form-control" id="subject" name="subject" placeholder="Ingresar su teléfono">
-											</div>
-									</div>
-									<div class="col-md-6">
-											<div class="form-group">
-													<textarea class="form-control" name="message" id="message" rows="1" placeholder="Ingresar mensaje"></textarea>
-											</div>
-									</div>
-									<div class="col-md-12 text-right">
-											<button type="submit" value="submit" class="btn btn_hover btn_hover_two">Enviar mensaje</button>
-									</div>
-							</form>
-					</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" name="email" placeholder="Ingresar su e-mail">
+							</div>
+							<div class="form-group">
+								<input type="number" class="form-control" id="subject" name="subject" placeholder="Ingresar su teléfono">
+							</div>
+						</div>
+						<div class="col-md-7">
+							<div class="form-group">
+								<textarea class="form-control" name="message" id="message" rows="1" placeholder="Ingresar mensaje"></textarea>
+							</div>
+						</div>
+						<div class="col-md-12 text-right">
+							<button type="submit" value="submit" class="btn btn_hover btn_hover_two">Enviar mensaje</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</section>

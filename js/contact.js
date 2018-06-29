@@ -35,23 +35,23 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Campo requerido",
+                    minlength: "El mínimo de caracteres requeridos son 2"
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "Campo requerido",
+                    minlength: "El mínimo de caracteres requeridos son 4"
                 },
                 number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "Campo requerido",
+                    minlength: "El mínimo de caracteres requeridos son 5"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "Campo requerido"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "Campo requerido",
+                    minlength: "Por favor ingresar un texto superior a 20 caracteres"
                 }
             },
             submitHandler: function(form) {

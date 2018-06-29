@@ -4256,6 +4256,7 @@ tbody.collapse.show {
 
 .card-columns .card {
   margin-bottom: 0.75rem;
+  margin: 10px
 }
 
 @media (min-width: 576px) {
